@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test">
+    <test name="login">
+        <classes>
+            <class name="com.test.testng.suite.SuiteConfig"/>
+            <class name="com.test.testng.suite.Login"/>
+        </classes>
+    </test>
+
+   <test name="pay">
+        <classes>
+            <class name="com.test.testng.suite.SuiteConfig"/>
+            <class name="com.test.testng.suite.Pay"/>
+        </classes>
+    </test>
+    <test name="groups">
+        <classes>
+            <class name="com.test.testng.suite.SuiteConfig"/>
+            <class name="com.test.testng.groups.GroupOnMethod"/>
+        </classes>
+    </test>
+</suite>

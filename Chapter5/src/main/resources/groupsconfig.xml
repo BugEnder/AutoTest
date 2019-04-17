@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="suitename">
+    <test name="t">
+        <classes>
+            <class name="com.test.testng.groups.class1" />
+            <class name="com.test.testng.groups.class2" />
+            <class name="com.test.testng.groups.class3" />
+        </classes>
+    </test>
+    <test name="tt">
+        <groups>
+            <run>
+                <include name="three"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.test.testng.groups.class1" />
+            <class name="com.test.testng.groups.class2" />
+            <class name="com.test.testng.groups.class3" />
+        </classes>
+    </test>
+</suite>
